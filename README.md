@@ -4,6 +4,8 @@
 
 Marketing, Sales and customer experience (CX) each worked from their own assumptions about the market. I built GTM Brain, a shared go-to-market (GTM) context layer: a reviewed source of personas, claims, proof points and approved messaging that the teams and their AI tools all drew from. The headline result: asset creation time down 30%.
 
+[Read the full write-up](docs/README.md)
+
 ## The problem
 
 Market intelligence (personas, differentiators and competitor benchmarks) sat scattered across static documents. Marketing, Sales and CX each worked from different assumptions about the market.
@@ -20,18 +22,15 @@ flowchart TD
     D["Leadership reviews ICP and pain points"] --> G
     G["GTM Brain: personas, ICP, pain points, claims, proof points, objections, messaging"]
     G --> H["Marketing assets"]
-    G --> I["Sales messaging"]
-    G --> J["CX resources"]
-    G --> K["AI newsletter pipeline"]
-    G --> L["Teams' AI tools"]
+    G --> I["Sales assets"]
+    G --> J["CX assets"]
 ```
 
 - **What it held.** Personas, the ideal customer profile (ICP), pain points, claims, proof points, objections and approved messaging.
-- **Where it lived.** A GitHub repository, which I built over 6 months.
+- **Where it lived.** A GitHub repository.
 - **Who reviewed it.** Marketing, Sales, CX and Leadership each reviewed all or part of it, shown in the next section.
 - **Who drew from it.** Marketing drew on it for assets, Sales for messaging and CX for resources.
 - **Their AI tools drew from it too.** Each team's AI tools worked from the same reviewed context as the people, so an AI draft started from the same approved claims and messaging.
-- **The AI newsletter pipeline read from it.** That pipeline has its own write-up, linked below.
 
 ## Where people stay in the loop
 
@@ -52,13 +51,9 @@ The headline result: asset creation time down 30%.
 
 ## Stack
 
-GitHub · read by the AI newsletter pipeline and the team's AI tools
+GitHub · read by the team's AI tools
 
 ## What I'd change
 
 - **Link each asset to the claims it used.** Teams built their assets, messaging and resources from GTM Brain. I'd record which claims and proof points each asset used, so when a claim changes, it's clear what needs an update.
 - **Name a lead reviewer for each part.** Marketing and CX each reviewed everything. I'd give each part a lead reviewer, so it's clear who answers for it.
-
-## Related
-
-- [AI newsletter pipeline](https://github.com/amanmishra2/ai-newsletter-pipeline): the pipeline that read its context from GTM Brain.
